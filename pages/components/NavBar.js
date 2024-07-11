@@ -27,7 +27,7 @@ const NavBar = () => {
                   <li>
                     <a
                       className="bg-gradient-to-r from-blue-500 to-teal-500 text-white px-4 py-2 border-none rounded-md"
-                      href="#"
+                      href="https://drive.google.com/file/d/1r-Tl_RR38T75BhkKCbpfDAiAwpehHPkR/view?usp=sharing"
                     >
                       Resume
                     </a>
@@ -38,38 +38,6 @@ const NavBar = () => {
           </header>
         </div>
       );
-//   return (
-//     <div><header className="text-gray-600 body-font">
-//     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-//     <nav className="py-10 mb-12 flex justify-between dark:text-white">
-//     <Link href="/"><a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-//         <img className="w-8" src="/logo.svg" alt="" />
-//         <span className="ml-3 text-xl">My Portfolio</span>
-//       </a></Link>
-//         <Link href="/"><a className="mr-5 hover:text-gray-900">Home</a></Link>
-//         <Link href="/about"><a className="mr-5 hover:text-gray-900">About</a></Link>
-//         <Link href="/projects"><a className="mr-5 hover:text-gray-900">Projects</a></Link>
-//         <Link href="/contact"><a className="mr-5 hover:text-gray-900">Contact Me</a></Link>
-//             <ul className="flex items-center">
-//               <li>
-//                 <BsFillMoonStarsFill
-//                   onClick={() => setDarkMode(!darkMode)}
-//                   className=" cursor-pointer text-2xl"
-//                 />
-//               </li>
-//               <li>
-//                 <a
-//                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-//                   href="#"
-//                 >
-//                   Resume
-//                 </a>
-//               </li>
-//             </ul>
-//       </nav>
-//     </div>
-//   </header></div>
-//   )
 }
 
 export default NavBar
