@@ -3,11 +3,11 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/components/Footer": "pages/components/Footer.html",
   "/components/NavBar": "pages/components/NavBar.html",
   "/contact": "pages/contact.html",
   "/": "pages/index.html",
   "/projects": "pages/projects.html",
-  "/components/Footer": "pages/components/Footer.html",
-  "/api/hello": "pages/api/hello.js",
   "/404": "pages/404.html"
 }
