@@ -1,9 +1,9 @@
 import Head from "next/head";
 import priya from "../public/priya.jpeg";
 import Image from "next/image";
-import { DarkModeProvider, useDarkMode } from './DarkModeContext';
+import { DarkModeProvider, useDarkMode } from '../context/DarkModeContext';
 
-export default function Home() {
+const Home = () => {
   const { darkMode } = useDarkMode();
 
   return (
@@ -25,7 +25,7 @@ export default function Home() {
             <div className="relative mx-auto mt-20 h-96 w-96 md:h-144 md:w-144">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-teal-500 rounded-full p-2 md:p-4">
                 <div className="bg-white dark:bg-gray-900 rounded-full overflow-hidden h-full w-full">
-                  <Image src={priya} layout="fill" objectFit="cover" className="rounded-full" />
+                  <Image alt="" src={priya} layout="fill" objectFit="cover" className="rounded-full" />
                 </div>
               </div>
             </div>
@@ -41,3 +41,5 @@ const App = () => (
     <Home />
   </DarkModeProvider>
 );
+
+export default App;

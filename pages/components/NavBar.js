@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
-import { useDarkMode } from '../DarkModeContext';
+import { useDarkMode } from '../../context/DarkModeContext';
 
 const NavBar = () => {
     const { darkMode, setDarkMode } = useDarkMode();

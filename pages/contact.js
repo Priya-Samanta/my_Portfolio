@@ -5,7 +5,7 @@ import {
     AiFillGithub,
     AiFillInstagram,
   } from "react-icons/ai";
-import { DarkModeProvider, useDarkMode } from './DarkModeContext';
+import { DarkModeProvider, useDarkMode } from '../context/DarkModeContext';
 
 const Contact = () => {
     const { darkMode } = useDarkMode();

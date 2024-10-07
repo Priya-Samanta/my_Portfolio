@@ -3,7 +3,7 @@ import Image from "next/image";
 import Brain from "../public/Brain.png";
 import sentiment from "../public/sentiment.jpg";
 import EEG from "../public/EEG.png"
-import { DarkModeProvider, useDarkMode } from './DarkModeContext';
+import { DarkModeProvider, useDarkMode } from '../context/DarkModeContext';
 
 const Projects = () => {
     const { darkMode } = useDarkMode();
@@ -15,7 +15,7 @@ const Projects = () => {
           </div>
           <div className="lg:flex gap-10 dark:bg-gray-900">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
-              <Image src={Brain} width={100} height={100} />
+              <Image alt="" src={Brain} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Web Application
               </h3>
@@ -30,7 +30,7 @@ const Projects = () => {
               <p className="text-gray-800 py-1"></p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={sentiment} width={100} height={100} />
+              <Image alt="" src={sentiment} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Sentiment Analysis
               </h3>
@@ -43,7 +43,7 @@ const Projects = () => {
               <p className="text-gray-800 py-1">Twitter APIs</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={EEG} width={100} height={100} />
+              <Image alt="" src={EEG} width={100} height={100} />
               <h3 className="text-lg font-medium pt-8 pb-2 ">Web Application</h3>
               <p className="py-2">
               EEG Signal Processing and Analysis Methods for BCI

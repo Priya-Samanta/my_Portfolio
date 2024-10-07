@@ -1,5 +1,5 @@
 import React from 'react';
-import { DarkModeProvider, useDarkMode } from './DarkModeContext';
+import { DarkModeProvider, useDarkMode } from '../context/DarkModeContext';
 
 
 const About = () => {
@@ -14,16 +14,16 @@ return (
               About myself
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Hello! I'm Priya Samanta, a fourth-year computer science engineering student at Indian Institute of Engineering Science and technology, Shibpur. I'm passionate about using technology to solve real-world problems and make a positive impact. With a strong foundation in computer science fundamentals, I've developed skills in programming languages such as C/C++, HTML, CSS, JavaScript, Python, as well as experience with data structures, algorithms, and software engineering. 
+            Hello! I am Priya Samanta, a fourth-year computer science engineering student at Indian Institute of Engineering Science and technology, Shibpur. I am passionate about using technology to solve real-world problems and make a positive impact. With a strong foundation in computer science fundamentals, I have developed skills in programming languages such as C/C++, HTML, CSS, JavaScript, Python, as well as experience with data structures, algorithms, and software engineering. 
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Throughout my academic journey, I've been involved in various projects and extracurricular activities that showcase my creativity, teamwork, and problem-solving skills. I'm excited to share some of these projects with you in my portfolio Projects section.
+            Throughout my academic journey, I have been involved in various projects and extracurricular activities that showcase my creativity, teamwork, and problem-solving skills. I am excited to share some of these projects with you in my portfolio Projects section.
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             In addition to my technical skills, I possess excellent communication and teamwork skills, with experience working on group projects and collaborating with cross-functional teams.
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            I'm looking forward to graduating and starting my career in the tech industry, where I can apply my skills and knowledge to make a meaningful impact.
+            I am looking forward to graduating and starting my career in the tech industry, where I can apply my skills and knowledge to make a meaningful impact.
             </p>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
             Feel free to explore my portfolio and get in touch with me to discuss potential opportunities or collaborations!
