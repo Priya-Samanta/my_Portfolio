@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
-import { DarkModeProvider, useDarkMode } from '../../context/DarkModeContext';
+import { DarkModeProvider, useDarkMode } from '../context/DarkModeContext';
 
 const Footer = () => {
     const { darkMode } = useDarkMode();
